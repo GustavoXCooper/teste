@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Módulo 1</title>
+<meta name="viewport" content="width=device-widht. user-scalable=0"/>
+<link rel="stylesheet" href="redstyle.css"/>
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');</style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="menu_img">
+                <img src="Arquivos/Logo/logo_REDv2.png" height="25px">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="homepage.html">Início</a></li>
+                    <li><a href="modulo2.html">Guia</a></li>
+                            <li><a href="#">Módulos</a>
+                            <ul>
+                                <li><a href="modulo1.html">Módulo 1</a></li>
+                                <li><a href="modulo2.html">Módulo 2</a></li>
+                                <li><a href="modulo3.html">Módulo 3</a></li>
+                                <li><a href="modulo4.html">Módulo 4</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main>
+<section id='banner_section'>
+    <div class='container'>
+        <div class='banner_mod'>
+            <div>
+                <h1 class="text_center">Conceitos e características <br/>dos Sistemas de Recomendação<br/> com foco na Educação</h1>
+                <div class="linha_amarela"></div>
+                <div class='menu_de_navegação'>
+                    <ul>
+                        <a href='#first'>
+                            <li class="primeiro_topico">O que são?</li>
+                        </a>
+                        <a href='#second'>
+                            <li class="topico_com_divisao">Como funciona?</li>
+                        </a>
+                        <a href='#third'>
+                            <li class="topico_com_divisao">Qual é a função?</li>
+                        </a>
+                        <a href='#fourth'>
+                            <li class="topico_com_divisao">Benefícios</li>
+                        </a>
+                        <a href='#fifth'>
+                            <li class="ultimo_topico topico_com_divisao">Atividade</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section_mod1">
+    <div class="container column">
+        <div class="topico_cinza">
+            <div class="titulo_topico">
+                <img id="first" src="https://cdn-icons-png.flaticon.com/512/179/179349.png" width="35px">
+                <h1>O que são Sistemas de Recomendação?</h1>
+                <div class="linha_escura"></div>
+            </div>
+            <div class="modulo_box">
+                <div class="text_box">
+                    <ul>
+                        <li><p>Sistemas de Recomendação são tecnologias que, apoiadas em filtragem de informações personalizadas, fornecem aos usuários elementos e materiais baseados em suas preferências.</p></li>
+                        <li><p>O objetivo é potencializar a experiência do usuário, fornecendo um serviço diferenciado, que atenda ao seu perfil, que identifique suas necessidades sem que ele precise declarar essas informações. Isso é possível devido ao mapeamento de comportamentos acumulados e, também, por meio da inferência de outros usuários que apresentam preferências semelhantes.  </p></li>
+                    </ul>
+                </div>
+                <div class="modulo_imagem left">
+                    <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80">
+                </div>
+            </div> 
+        </div>
+        <div class="arrow_up">
+            <a href="#">
+                <div class="arrow_background">
+                    <img src="https://static.thenounproject.com/png/2469956-200.png"></img>
+                </div>
+            </a>
+        </div> 
+    </div>
+
+
+
+
+    <div class="topico_cinza_escuro lista_lista">
+        <div class="container column">
+            <div class="titulo_topico">
+                <img id="second" src="https://cdn-icons-png.flaticon.com/512/179/179350.png" width="35px">
+                <h1>Como funciona um Sistema de Recomendação?</h1>
+                <div class="linha_escura"></div>
+            </div>
+            <div class="text_box">
+                <ul>
+                    <p>Sistemas de Recomendação (SR) utilizam diferentes fontes de conhecimento, são elas:</p>
+                    <li><p>conhecimento <b>social</b>, que envolve dados gerais sobre os usuários</p></li>
+                    <li><p>conhecimento <b>individual</b>, que utiliza informações específicas dos usuários e </p></li>
+                    <li><p>conhecimento de <b>conteúdo</b>, que dizem respeito aos itens que serão recomendados </p></li>
+                    <p>(BURKE; FELFERNIG; GÖKER, 2011).</p>
+                </ul>
+                <p>O funcionamento desses Sistemas de Recomendação depende do algoritmo (procedimento com instruções a serem seguidas) de filtragem utilizado. De acordo com a técnica de filtragem aplicada, os SR dividem-se em: filtragem colaborativa, filtragem baseada em conteúdo e filtragem híbrida (BOBADILLA et al., 2013).</p>
+                <ul>
+                    <li>A filtragem colaborativa considera a classificação informada por outros usuários aos itens que eles já experimentaram. Dessa forma, os itens melhor classificados serão os recomendados. </li>
+                    <li>A filtragem por conteúdo leva em consideração as informações conhecidas sobre o item e sobre o usuário. Para tanto, baseia-se em três etapas:
+                        <ol type="I">
+                            <li>extração das características do item;</li>
+                            <li>comparação dessas características com as preferências dos usuários e</li>
+                            <li>recomendação de itens com qualidades semelhantes às preferências dos usuários.</li>
+                        </ol>
+                    </li>
+                    <li>A filtragem híbrida surge com a proposta de conciliar as qualidades dessas abordagens e de outras como: filtragem baseada em redes sociais, em contextos e em grupos</li>
+                </ul>
+            </div>
+            <div class="arrow_up">
+                <a href="#">
+                    <div class="arrow_background">
+                        <img src="https://static.thenounproject.com/png/2469956-200.png"></img>
+                    </div>
+                </a>
+            </div>  
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container column">
+        <div class="topico_cinza">
+            <div class="titulo_topico">
+                <img id="third" src="https://cdn-icons-png.flaticon.com/512/179/179351.png" width="35px">
+                <h1>Qual é a função de um Sistema de Recomendação na Educação?</h1>
+                <div class="linha_escura"></div>
+            </div>
+            <div class="modulo_box">
+                <div class="modulo_imagem right">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80">
+                </div>
+                <div class="text_box end">
+                    <p>Na Educação, o Sistema de Recomendação tem a função de criar personalizações aos alunos, professores e gestores de acordo com seus contextos pedagógicos e situacionais. Para isso, ele pode considerar, por exemplo: a idade, o idioma, o nível de conhecimento, os objetivos pretendidos pelo sujeito, o tempo que ele dispõe e a maneira como acessa a esses recursos</p>
+                    <p class='referencia'>(PEIRIS; GALLUPE, 2012).</p>
+                    <p>A partir desse conjunto de informações, o Sistema de Recomendação Educacional pode recomendar ao usuário um recurso, uma atividade, um outro usuário ou, ainda, um grupo de usuários</p>
+                    <p class='referencia'>(MANOUSELIS, 2013).</p>
+                    <p>Recomendação podem aprimorar as funcionalidades tradicionais conforme apresentado no Quadro 1</p>
+                    <p class='referencia'>(GUIZZO, 2021).</p>
+                </div> 
+            </div> 
+        </div>
+        
+        <div class="arrow_up">
+            <a href="#">
+                <div class="arrow_background">
+                    <img src="https://static.thenounproject.com/png/2469956-200.png"></img>
+                </div>
+            </a>
+        </div> 
+    </div>
+
+
+
+
+
+    <div class="topico_cinza_escuro">
+        <div class="container column">
+            <div class="titulo_topico">
+                <h3 id="fourth">Benefícios da utilização de SRE</h3>
+            </div>
+            <div>
+                <table class='end'>
+                    <tr>
+                        <th>AVA Tradicional</th>
+                        <th>AVA com Recomendação</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Alunos</h3>
+                            <p>A pedagogia didática é tipicamente recriada em formato eletrônico. Muitos AVAs não acompanham o progresso do aprendizado individual e não fornecem suporte contínuo ao aprendizado. Poucos fornecem um ambiente para aprendizagem colaborativa significativa com suporte para aprendizagem cognitiva personalizada</p>
+                        </td>
+                        <td>
+                            <h3>Alunos</h3>
+                            <p>Acompanha o progresso individual da aprendizagem, fornece suporte contínuo à aprendizagem e desenvolve recomendações dinâmicas de aprendizagem com base no desempenho do aluno. O ambiente incentiva os alunos a se auto-regularem e a aprender por meio de interações com especialistas, colegas e profissionais.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Tutores</h3>
+                            <p>Informações para responder rapidamente a mudanças no conteúdo e na avaliação, geralmente, não estão disponíveis.</p>
+                        </td>
+                        <td>
+                            <h3>Tutores</h3>
+                            <p>As recomendações geradas dinamicamente pelo sistema permitem que os instrutores respondam rapidamente às necessidades dos alunos e realizem as alterações no conteúdo e na avaliação.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Docentes</h3>
+                            <p>O sistema fornece ferramentas para postar conteúdo no ambiente AVA.</p>
+                        </td>
+                        <td>
+                            <h3>Docentes</h3>
+                            <p>O sistema fornece ferramentas para criar novos conteúdos em um ambiente guiado e enriquecer o conteúdo por meio de vários métodos de entrega, como texto, clipes audiovisuais, modelos e exemplos trabalhados. As recomendações baseadas no desempenho do aluno guiam os autores do curso para adaptar o conteúdo do curso e a avaliação formativa às necessidades de perfis de usuário específicos.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="arrow_up">
+                <a href="#">
+                    <div class="arrow_background">
+                        <img src="https://static.thenounproject.com/png/2469956-200.png"></img>
+                    </div>
+                </a>
+            </div> 
+        </div>
+    </div>
+
+
+    <div class="container_palavracruzada column">
+        <div class="topico_cinza">
+            <div class="titulo_topico">
+                <h1 id="fifth">Atividade</h1>
+                <div class="linha_escura"></div>
+            </div>
+            <div class="atividade">
+                <div class="crossword">
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1" placeholder="3"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1" placeholder="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+            
+                    <div>
+                        <input type="text" maxlength="1" placeholder="2"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1" placeholder="4"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1">       
+                    </div>
+            
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                    
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1" placeholder="5"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+            
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+            
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+            
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+            
+                    <div>
+                        <input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" maxlength="1"><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled=""><input type="text" disabled="">
+                    </div>
+                </div>
+            </div> 
+            <div class='dicas'>
+                <b>Dicas:</b>
+                <ol>
+                    <li>Fornecem aos usuários elementos e materiais baseados em suas preferências.</li>
+                    <li>Concilia as qualidades das abordagens com outras como: filtragem baseada em redes sociais, em contextos e em grupos.</li>
+                    <li>Considera a classificação informada por outros usuários aos itens que eles já experimentaram.</li>
+                    <li>Na filtragem de ________ é levado em consideração as informações conhecidas sobre o item e sobre o usuário.</li>
+                    <li>Na Educação, o Sistema de Recomendação tem a função de criar __________.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="arrow_up">
+            <a href="#">
+                <div class="arrow_background">
+                    <img src="https://static.thenounproject.com/png/2469956-200.png"></img>
+                </div>
+            </a>
+        </div> 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="topico_cinza_escuro">
+        <div class="container">
+            <div class="ref">
+                <h3>Referências</h3>
+                <ul>
+                    <li>GUIZZO, Michele Alda Rosso. <b>MODELOS PEDAGÓGICOS BASEADOS EM SISTEMAS DE RECOMENDAÇÃO</b>: Um foco em disciplinas da graduação / Michele Alda Rosso Guizzo. -- 2021. 256 f.</li>
+                    <li>DESHPANDE, Mukund; KARYPIS, George. <b>Item-based Top-N Recommendation Algorithms. ACM Transactions on Information Systems</b>, v. 22, n. 1, p. 143-177. 2004.</li>
+                    <li>BURKE, Robin; FELFERNIG, Alexander; GÖKER, Mehmet H. <b>Recommender Systems</b>: An Overview. AI Magazine, v. 32, n. 3, p. 13-18. 2011.</li>
+                    <li>BOBADILLA, Jesús et al. <b>Recommender Systems Survey</b>. Knowledge-Based Systems, v. 46, p. 109–132. 2013. DOI: 10.1016/j.knosys.2013.03.012</li>
+                    <li>PEIRIS, K. Dharini Amitha; GALLUPE, R. Brent. <b>A Conceptual Framework for Evolving, Recommender Online Learning Systems. Decision Sciences Journal of Innovative Education</b>, v. 10, n. 3, p. 389–412. 2012. DOI: 10.1111/j.1540-4609.2012.00347.x</li>
+                    <li>MANOUSELIS, Nikos et al. <b>Recommender Systems for Learning</b>. Springer, 2013.</li>
+                </ul>
+                <div class="arrow_up">
+                    <a href="#">
+                        <div class="arrow_background">
+                            <img src="https://static.thenounproject.com/png/2469956-200.png"></img>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
